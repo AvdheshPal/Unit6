@@ -19,7 +19,7 @@ function loadmore() {
         div.setAttribute('class', 'divs')
         div.innerText = "this is  " + count;
         parent.append(div)
-    }, 1000)
+    }, 500)
 }
 
 const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
@@ -30,6 +30,5 @@ window.addEventListener('scroll', () => {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         console.log('I am at bottom');
         loadmore();
-        console.log("at bottom");
     }
 })
