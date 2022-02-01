@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Roboto:wght@400;900&display=swap');
+.container{
+    display:grid;
+    justify-content: center;
+    
+}
+#heading{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    border: 1px solid ;
+    padding: 10px;
+}
