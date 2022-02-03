@@ -23,8 +23,10 @@ console.log(str);
 // brute force approach 
 // time = O(n**2) , space = O(n)
 
-//  let ans = []
-//  for(let i = str.length-1; i >= 0 ; i--) {
-//      ans.push(str[i])
-//  }
-// console.log(ans);
+ let ans = []
+ 
+ for(let i = str.length-1; i >= 0 ; i--) {
+     ans.push(str[i])
+ }
+
+console.log(ans);
