@@ -8,7 +8,7 @@ function equilibrium(arr) {
     }
 
     let right = sum - (arr[0] + arr[1]);
-    
+
     let left = arr[0];
 
     for (let i = 1; i < arr.length; i++) {
@@ -23,3 +23,6 @@ function equilibrium(arr) {
 }
 
 console.log(equilibrium(arr));
+
+// equilibrium question's time complexity is O(n)
+// and space complexity is O(1)
