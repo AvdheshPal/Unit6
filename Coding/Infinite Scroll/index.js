@@ -24,11 +24,11 @@ function loadmore() {
 
 const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
 window.addEventListener('scroll', () => {
-    // if (scrollTop + clientHeight >= clientHeight) {
-    //     loadmore();
-    // }
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         console.log('I am at bottom');
         loadmore();
     }
+    // if (scrollTop + clientHeight >= clientHeight) {
+    //     loadmore();
+    // }
 })
