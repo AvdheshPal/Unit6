@@ -1,3 +1,5 @@
+//  Equilibrium point of the array
+
 let arr = [-7, 2, 5, 3, 0, 5, 3]
 
 function equilibrium(arr) {
