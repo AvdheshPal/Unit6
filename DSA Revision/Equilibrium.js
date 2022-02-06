@@ -18,11 +18,13 @@ function equilibrium(arr) {
             return i;
         }
         left += arr[i];
+
         right -= arr[i + 1];
     }
 
     return -1;
 }
+
 
 console.log(equilibrium(arr));
 
