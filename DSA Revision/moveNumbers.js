@@ -4,6 +4,7 @@ let arr = [2, -4, 7, -3, 4]
 
 
 function moveNumbers(arr){
+
     let left = 0;
     let right = arr.length-1;
 
@@ -14,13 +15,17 @@ function moveNumbers(arr){
         while(arr[right] > 0){
             right = right-1;
         }
+
         let temp = arr[left];
         arr[left] = arr[right];
         arr[right] = temp;
         left++;
         right--;
+
     }
+
     return arr;
+    
 }
 
 console.log(moveNumbers(arr));
