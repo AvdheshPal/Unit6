@@ -1,8 +1,13 @@
 function doUnion(a, n, b, m){
+
     let l = Math.max(n, m)
+
     let ans = 1;
+
     a = a.sort((a,b)=>a-b);
+
     b = b.sort((a,b)=>a-b);
+    
     for (let i = 1; i <= l - 1; i++) {
         if (a[i]) {
             if (a[i] !== a[i - 1]) {
