@@ -11,12 +11,14 @@ let end = str.length - 1;
 // time = O(n/2); space = O(1)
 
 while (start < end) {
+
     let temp = str[start];
     str[start] = str[end];
     str[end] = temp;
-    start++
-    end--
+    start++;
+    end--;
 }
+
 console.log(str);
 
 
