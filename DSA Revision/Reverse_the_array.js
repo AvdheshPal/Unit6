@@ -10,7 +10,6 @@ let end = str.length - 1;
 // time = O(n/2); space = O(1)
 
 while (start < end) {
-
     let temp = str[start];
     str[start] = str[end];
     str[end] = temp;
@@ -31,3 +30,6 @@ console.log(str);
  }
 
 console.log(ans);
+
+
+
