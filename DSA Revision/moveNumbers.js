@@ -29,5 +29,7 @@ function moveNumbers(arr){
 
 console.log(moveNumbers(arr));
 
+
+
 // time  = O(n) 
 // space = O(1)
