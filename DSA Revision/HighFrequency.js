@@ -10,7 +10,6 @@ function ok(n, arr) {
     let max = obj[Object.keys(obj)[0]]
 
     let arr2 = []
-    
     for (let k in obj) {
         if (obj[k] > max) {
             max = obj[k]
