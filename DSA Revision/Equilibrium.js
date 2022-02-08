@@ -28,5 +28,8 @@ function equilibrium(arr) {
 
 console.log(equilibrium(arr));
 
+
+
 // equilibrium question's time complexity is O(n)
+
 // and space complexity is O(1)
