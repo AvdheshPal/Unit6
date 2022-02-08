@@ -23,7 +23,6 @@ function moveNumbers(arr){
         right--;
 
     }
-
     return arr;
     
 }
