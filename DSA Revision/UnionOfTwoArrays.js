@@ -23,6 +23,9 @@ function doUnion(a, n, b, m){
     return ans
 }
 
+
 let arr1 = [1, 3, 3, 4, 5]
+
 let arr2 = [1, 2, 4]
+
 console.log(doUnion(arr1,arr1.length,arr2,arr2.length));
