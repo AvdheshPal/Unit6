@@ -6,7 +6,6 @@ let str = [1,2,3,4,5,6,7,8];
 let start = 0
 let end = str.length - 1;
 
-
 // best approach 
 // time = O(n/2); space = O(1)
 
