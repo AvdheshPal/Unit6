@@ -15,3 +15,12 @@ console.log(fact);
 
 
 
+// Aproach second -> recursion method
+
+// function factorial (a) {
+// //   let fact = a * factorial(a-1);
+//   if(a == 1){
+//       return fact
+//   }
+// }
+// console.log(factorial(n));
