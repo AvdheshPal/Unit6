@@ -11,8 +11,18 @@ function runProgram(input) {
      let start = 0;
      let total = 0;
      for(let i = 0; i <n; i++){
-         
+         fuel = fuel + gas[i]-cost[i];
+         total = total + gas[i]-cost[i];
+         if(fuel < 0){
+             start = i+1;
+             fuel = 0;
+         }
+
      }
+     if(total<0){
+         start = -1;
+     }
+     console.log(start);
  }
  if (process.env.USERNAME === "awdhesh") {
    runProgram(`5
