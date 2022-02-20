@@ -39,3 +39,11 @@
 // console.log(5 && 2 && 0 || 2 == 3 || 15 && 21);
 // console.log(5 && 2 && 0 || 2 == 
 
+function ok(a){
+    setTimeout(()=>{
+        return a
+    },3000)
+ 
+    
+}
+console.log(ok("name"));
