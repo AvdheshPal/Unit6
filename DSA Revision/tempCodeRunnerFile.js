@@ -1,2 +1,8 @@
-);
-// console.log(sortedArray); //prints [2,3,5,6,7,9]
+function ok(a){
+//     setTimeout(()=>{
+//         return a
+//     },3000)
+ 
+    
+// }
+// console.log(ok("name"));
